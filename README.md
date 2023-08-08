@@ -9,7 +9,7 @@
 🤖 shPark [*github*](https://github.com/nastorond)</br>
 🤓 hcCha</br>
 🤗 ceLee</br>
-🤫 tsLim</br>
+🤫 tsLim [*github*](https://github.com/1n1styleyuie)</br>
 😸 jhLim</br>
 
 ### *Ground Rule*
