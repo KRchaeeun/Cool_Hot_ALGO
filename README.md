@@ -9,8 +9,9 @@
 🤖 shPark [*github*](https://github.com/nastorond)</br>
 🤓 hcCha</br>
 🤗 ceLee</br>
-🤫 tsLim</br>
+🤫 tsLim [*github*](https://github.com/1n1styleyuie)</br>
 😸 jhLim</br>
+🧑‍🎓 twKim</br>
 
 ### *Ground Rule*
 *1. 매주 화요일, 목요일 discord에서 온라인 스터디*</br>
