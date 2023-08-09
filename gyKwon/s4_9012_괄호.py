@@ -1,18 +1,20 @@
 T = int(input())
 
-for tc in (1,T+1):
+for tc in range(1,T+1):
     X = input()
-    aa = 0
-    bb = 0
+    stack = []
+
+    what = True
     for i in X:
         if i == '(':
-            aa += 1
-        elif i == ')':
-            bb += 1
-
-    if aa == bb:
+            stack.append(i)
+        else:
+            if stack:
+                stack.pop()
+            else:
+                stack.append(i)
+                break
+    if len(stack) == 0:
         print('YES')
     else:
         print('NO')
-
-    
