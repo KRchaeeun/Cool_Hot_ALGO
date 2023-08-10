@@ -35,7 +35,8 @@ while stack:
         visited_order += 1
 
         # 현재 노드와 연결된 노드들 중 방문하지 않은 노드를 스택에 추가
-        for adj in reversed(graph[node]):  # 스택이므로 높은 번호부터 추가 (LIFO)
+        # 스택이므로 높은 번호부터 추가 (LIFO) 오름차순으로 인접 노드를 방문하려면 높은 번호부터 추가해야한다.
+        for adj in reversed(graph[node]):
             if not visited[adj]:
                 stack.append(adj)
 
