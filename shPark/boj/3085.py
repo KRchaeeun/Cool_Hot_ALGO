@@ -76,4 +76,3 @@ max_val = max(sav_counts, key=lambda x: x[1])
 idx = sav_counts.index(max_val)
 print(max_val, idx)
 """
-
