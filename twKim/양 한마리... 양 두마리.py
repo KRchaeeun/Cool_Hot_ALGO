@@ -21,11 +21,13 @@ def dfs(i,j):
 
 T = int(input().rstrip())
 for tc in range (1,T+1):
+
     N, M = map(int, input().split())
     matrix = [list(input().rstrip()) for _ in range (N)]
     visited = [[0]*M for _ in range (N)]
     delta = ((0,1), (0,-1), (1,0), (-1,0))                      # 4방향 탐색
     cnt = 0
+    
     for i in range (N):
         for j in range (M):
             if matrix[i][j] == '#' and not visited[i][j]:       # 그래프 탐색
