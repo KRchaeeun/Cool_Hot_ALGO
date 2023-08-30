@@ -1,4 +1,4 @@
-def dfs(x, y):
+def bfs(x, y):
     global rst
     # 종료 조건 -1 인경우 결과값 변경하고 리턴
     if matrix[x][y] == -1:
@@ -20,7 +20,7 @@ def dfs(x, y):
                     # 방문하기 위해 큐에 추가 + 해당지역 방문 설정 후 함수 호출
                     que.append((ni, nj))
                     visited[ni][nj] = 1
-                    dfs(ni, nj)
+                    bfs(ni, nj)
 
 
 size = int(input())
@@ -36,7 +36,7 @@ visited = [[0] * size for _ in range(size)]
 
 # 큐에 추가
 que = [(0, 0)]
-dfs(0, 0)
+bfs(0, 0)
 if rst == 1:
     print('HaruHaru')
 else:
