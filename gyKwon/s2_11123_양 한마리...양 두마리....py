@@ -15,7 +15,8 @@ def bfs(x,y):
                 # '#'를 찾으면 좌표를 큐에 푸시
                 if grass[nx][ny]=='#':
                     q.append((nx,ny))
-                    # 찾았으니 재방문을 막기 위해 '.' 표시                    grass[nx][ny] = '.'
+                    grass[nx][ny] = '.'
+                    # 찾았으니 재방문을 막기 위해 '.' 표시
 
 # 양 발견시 탐색을 시작하는 함수 설정
 def wheres(W,H):
