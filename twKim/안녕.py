@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 
+
 N = int(input())
 dp = [0]*100
 help_list = list(map(int, input().split()))
