@@ -13,7 +13,7 @@ def find_height(start, end):
     
     # 자른 나무 길이 측정
     branches = sum([i-mid for i in trees if i-mid > 0])
-    
+
     # 딱맞으면 리턴
     if branches == key:
         return mid
