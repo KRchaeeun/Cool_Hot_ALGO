@@ -27,5 +27,5 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=1n1styleyuie)](https://solved.ac/1n1styleyuie)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=rlaxodhks770)](https://solved.ac/rlaxodhks770)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=cheeun0903)](https://solved.ac/cheeun0903)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=chahyeoncheol)](https://solved.ac/chahyeoncheol)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=ckguscjf03)](https://solved.ac/ckguscjf03)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=pyu1202)](https://solved.ac/pyu1202)
