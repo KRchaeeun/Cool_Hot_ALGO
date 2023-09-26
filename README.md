@@ -20,7 +20,7 @@
 ***4. <u>코드 못짠다고 이악물지말기***</u></br>
 ╰(*°▽°*)╯
 
-<span style='color: #fff5b1'>현재 골드 달성률 **100%**</span>
+<span style='color: #fff5b1'>전원 골드 달성</span>
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=yeol3011)](https://solved.ac/yeol3011)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=peach0718)](https://solved.ac/peach0718)
