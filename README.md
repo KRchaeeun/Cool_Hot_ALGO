@@ -20,4 +20,12 @@
 ***4. <u>코드 못짠다고 이악물지말기***</u></br>
 ╰(*°▽°*)╯
 
-<span style='color: #fff5b1'>현재 골드 달성률 85.71%</span>
+<span style='color: #fff5b1'>현재 골드 달성률 **100%**</span>
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=yeol3011)](https://solved.ac/yeol3011)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=peach0718)](https://solved.ac/peach0718)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=1n1styleyuie)](https://solved.ac/1n1styleyuie)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=rlaxodhks770)](https://solved.ac/rlaxodhks770)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=cheeun0903)](https://solved.ac/cheeun0903)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=chahyeoncheol)](https://solved.ac/chahyeoncheol)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=pyu1202)](https://solved.ac/pyu1202)
