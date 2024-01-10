@@ -2,30 +2,32 @@ import java.util.ArrayDeque;
 import java.util.Scanner;
 
 public class Bj9205 {
-    static int t;
-    static int n;
-    static int[] node;
-    static int[][] location;
-    static int beer = 20;
+    static int t, n, homeX, homeY, destinationX, destinationY;
+    static int[][] store;
 
-    static String bfs(int x, int y) {
+    static String Bfs() {
         ArrayDeque<int[]> q = new ArrayDeque<>();
-        q.offer(new int[]{x, y});
+        q.offer(new int[] {homeX, homeY});
+        boolean[] visited = new boolean[n];
 
         while (!q.isEmpty()) {
-            node = q.poll();
+            int[] node = q.poll();
+            homeX = node[0];
+            homeY = node[1];
 
-            x = node[0];
-            y = node[1];
-
-            if (x == location[location.length - 1][0] && y == location[location.length - 1][1]) {
+            if (Math.abs(homeX - destinationX) + Math.abs(homeY - destinationY) <= 1000) {
                 return "happy";
             }
 
-
-
+            for (int i = 0; i < n; i++) {
+                if (Math.abs(homeX - store[i][0]) + Math.abs(homeY - store[i][1]) <= 1000) {
+                    if (!visited[i]) {
+                        visited[i] = true;
+                        q.add(new int[] {store[i][0], store[i][1]});
+                    }
+                }
+            }
         }
-
         return "sad";
     }
 
@@ -34,14 +36,20 @@ public class Bj9205 {
         t = sc.nextInt();
         for (int i = 0; i < t; i++) {
             n = sc.nextInt();
-            location = new Integer[n + 2][2];
-            for (int j = 0; j < n + 2; j++) {
+            store = new int[n][2];
+            homeX = sc.nextInt();
+            homeY = sc.nextInt();
+
+            for (int j = 0; j < n; j++) {
                 for (int k = 0; k < 2; k++) {
-                    location[j][k] = sc.nextInt();
+                    store[j][k] = sc.nextInt();
                 }
             }
 
-            System.out.println(bfs(location[0][0], location[0][1]));
+            destinationX = sc.nextInt();
+            destinationY = sc.nextInt();
+
+            System.out.println(Bfs());
         }
     }
 }
