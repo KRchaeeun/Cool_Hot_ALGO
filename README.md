@@ -7,7 +7,7 @@
 
 😎 gyKwon [*github*](https://github.com/papillonthor)</br>
 🤖 shPark [*github*](https://github.com/nastorond)</br>
-🤓 hcCha</br>
+🤓 hcCha [*github*](https://github.com/bright-cha)</br>
 🤗 ceLee</br>
 🤫 tsLim [*github*](https://github.com/1n1styleyuie)</br>
 😸 jhLim</br>
