@@ -1,9 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Deque;
 import java.util.StringTokenizer;
 
 public class Bj1707 {
@@ -38,7 +35,7 @@ public class Bj1707 {
     }
 
     static String checkBipartiteGraph() {
-        Deque<int[][]> q = new ArrayList<>;
+//        Deque<int[][]> q = new ArrayList<>;
 
         return "NO";
     }
